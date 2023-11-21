@@ -11,6 +11,6 @@ public class YoloController {
     @GetMapping("/hello-world")
     @ResponseBody
     public String helloWorld() {
-        return "Version 0.0.1";
+        return "Version 0.1.0. WOOOOOO";
     }
 }
